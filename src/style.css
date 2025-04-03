@@ -1,0 +1,100 @@
+body {
+  background-color: rgb(0, 0, 0);
+}
+
+header {
+  color: rgb(1, 1, 1);
+  padding: px;
+  text-align: center;
+  font-family: arima;
+}
+.hello {
+  text-decoration-line: none;
+}
+h1,
+h3 {
+  text-decoration-line: underline;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-weight: bold;
+}
+.btn {
+  color: #000000;
+}
+.my-picture {
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+}
+.skills-gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 5px;
+}
+.container {
+  max-width: 1000px;
+  margin: 20px auto;
+  background-color: #d9bebe;
+  padding: 20px;
+  border-radius: 10px;
+}
+button {
+  display: block;
+  margin: 10px auto 0px;
+  border: 1px solid rgb(223, 208, 180);
+  background: linear-gradient(
+    113.9deg,
+    rgb(253, 251, 251) -4.5%,
+    rgb(235, 89, 26) 98.8%
+  );
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+  border-radius: 6px;
+  padding: 10px 15px;
+  transition: all 200ms ease-in-out;
+}
+button:hover {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  transition: all 200ms ease-in-out;
+  filter: contrast(50%);
+  transform: scale(1.1);
+}
+.container.dark {
+  background-color: rgb(24, 22, 22);
+}
+.container.dark h1,
+.container.dark h2,
+.container.dark h3,
+.container.dark p {
+  color: white;
+}
+
+.container.dark a {
+  color: rgb(139, 255, 255);
+}
+footer {
+  color: #ffffff;
+  text-align: center;
+}
+.soft-skills {
+  list-style: none;
+  padding-left: 0;
+  padding-right: 0;
+}
