@@ -1,58 +1,8 @@
+/* ===== GENERAL STYLES ===== */
 body {
   background-color: rgb(0, 0, 0);
 }
-
-header {
-  color: rgb(1, 1, 1);
-  padding: px;
-  text-align: center;
-  font-family: arima;
-}
-.hello {
-  text-decoration-line: none;
-}
-h1,
-h3 {
-  text-decoration-line: underline;
-}
-
-nav ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-nav ul li {
-  display: inline;
-  margin: 0 15px;
-}
-
-nav a {
-  color: rgb(0, 0, 0);
-  text-decoration: none;
-  font-weight: bold;
-}
-.btn {
-  color: #000000;
-}
-.my-picture {
-  height: 200px;
-  border-radius: 50%;
-  object-fit: cover;
-  display: block;
-  margin: 0 auto;
-}
-.skills-gallery {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  grid-gap: 5px;
-}
-.container {
-  max-width: 1000px;
-  margin: 20px auto;
-  background-color: #d9bebe;
-  padding: 20px;
-  border-radius: 10px;
-}
+/* Theme toggle button */
 button {
   display: block;
   margin: 10px auto 0px;
@@ -76,25 +26,133 @@ button:hover {
   filter: contrast(50%);
   transform: scale(1.1);
 }
+/* Container for overall layout */
+.container {
+  max-width: 1000px;
+  margin: 20px auto;
+  background-color: #d9bebe;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
 .container.dark {
   background-color: rgb(24, 22, 22);
 }
 .container.dark h1,
 .container.dark h2,
 .container.dark h3,
-.container.dark p {
+.container.dark p,
+.container.dark li {
   color: white;
 }
-
 .container.dark a {
   color: rgb(139, 255, 255);
 }
-footer {
-  color: #ffffff;
+/* navigation bar */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-weight: bold;
+}
+/* ===== HOME & ABOUT ME SECTION =====*/
+.hello {
+  text-decoration-line: none;
+}
+header {
+  color: rgb(1, 1, 1);
+  padding: px;
   text-align: center;
+  font-family: arima;
+}
+
+h1,
+h3 {
+  text-decoration-line: underline;
+}
+/*=====SKILLS SECTION =====*/
+.btn {
+  color: #000000;
+}
+.my-picture {
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+}
+.skills-gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 5px;
 }
 .soft-skills {
   list-style: none;
   padding-left: 0;
   padding-right: 0;
+}
+/*===== MY PROJECTS SECTION ===*/
+.projects-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 5px;
+}
+.project-card {
+  max-width: 200px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 10px 0;
+  background-color: rgb(185, 162, 162);
+  text-align: center;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.project-card img {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 8px;
+}
+
+.project-card h3 {
+  margin: 10px 0;
+  color: #f9f9f9;
+}
+
+.project-card p {
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.btn {
+  display: inline-block;
+  padding: 8px 15px;
+  margin-top: 10px;
+  background: linear-gradient(
+    113.9deg,
+    rgb(248, 162, 136) -4.5%,
+    rgb(174, 54, 3) 98.8%
+  );
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background-color: #404347;
+  transform: scale(1.1);
+}
+/*-- footer --*/
+footer {
+  color: #ffffff;
+  text-align: center;
 }

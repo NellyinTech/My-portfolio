@@ -1,12 +1,22 @@
-[
-  {
-    "title": "AI Image Recognition",
-    "description": "Trained an AI to recognize different photos.",
-    "link": "https://github.com/nellycherono/image-recognition"
-  },
-  {
-    "title": "Climate Awareness Dashboard",
-    "description": "A website that provides climate facts and tips.",
-    "link": "https://github.com/nellycherono/climate-dashboard"
-  }
-]
+{
+  "projects": [
+    {
+      "name": "My Portfolio Website",
+      "description": "A personal portfolio showcasing my skills and projects.",
+      "image": "src/my-website-photo.png",
+      "link": "https://nelly-cherono-portfolio.netlify.app/"
+    },
+    {
+      "name": "Majestic Jewelry Shop",
+      "description": "A Jewelry shop website where one can fill their carts and make orders.",
+      "image": "src/jewelry-shop.png",
+      "link": "https://majestic-jewel-shop.netlify.app/"
+    },
+    {
+      "name": "HerStoryAfrica Blog",
+      "description": "A blog website focused on the Past, present, and future of Africa and her people.",
+      "image": "https://www.travelandleisure.com/thmb/mIVvWJcm2T7ZN1JUj5T3ottdBJs=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/TAL-sunset-afrian-landscape-ALISTBJORN1125-ba67aaeeb47e4f62a7c724b7a090d5ea.jpg",
+      "link": "https://example.com/climate-blog"
+    }
+  ]
+}
